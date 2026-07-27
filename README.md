@@ -38,5 +38,34 @@ python sms_spam_detector.py
 ## 📈 Results
 The model achieves over **96% accuracy** with extremely high precision on Spam detection, ensuring that valid messages are not accidentally sent to the spam folder.
 
+
+
+## 📁 Production Directory Structure
+
+```text
+📁 ml-sms-spam-detector/
+├── 📄 README.md
+├── 📁 config/
+│   └── 📄 settings.yaml
+├── 📁 dataset/
+│   ├── 📄 SMSSpamCollection
+│   └── 📄 readme
+├── 📄 requirements.txt
+├── 📄 sms_spam_detector.ipynb
+├── 📁 src/
+│   ├── 📄 __init__.py
+│   └── 📄 sms_spam_detector.py
+└── 📁 tests/
+    ├── 📄 __init__.py
+    └── 📄 test_smoke.py
+```
+
+## 🧪 Running Automated Tests
+
+To run the automated production test suite, execute:
+
+```bash
+pytest tests/  # or python -m unittest discover -s tests
+```
 ## 📝 License
 MIT License

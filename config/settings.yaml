@@ -1,0 +1,4 @@
+# Production settings for ml-sms-spam-detector
+app_name: ml-sms-spam-detector
+version: 1.0.0
+environment: production
